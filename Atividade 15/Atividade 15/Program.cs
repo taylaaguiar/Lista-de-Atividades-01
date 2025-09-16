@@ -2,7 +2,6 @@
 
 {
     Console.WriteLine("Números entre 1000 e 2000 com resto 5 ao dividir por 11:");
-    Console.WriteLine("--------------------------------------------------------");
 
     for (int i = 1000; i <= 2000; i++)
     {
@@ -12,7 +11,6 @@
         }
     }
 
-    Console.WriteLine("--------------------------------------------------------");
     Console.WriteLine("Fim da verificação.");
     Console.ReadKey();
 }
